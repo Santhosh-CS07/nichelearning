@@ -2,10 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -15,15 +11,14 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 11vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(15px + 2vmin);
   color: white;
 }
-
 .App-link {
   color: #61dafb;
 }
@@ -36,3 +31,100 @@
     transform: rotate(360deg);
   }
 }
+
+ul{
+  text-decoration: none;
+  color: #eee;
+  line-height: 55px;
+  text-align: left;
+  font-size: 1.3rem;
+}
+
+.free{
+  font-weight: bold;
+  color: chocolate;
+}
+.image {
+  display: flex;
+  padding-left: 60px;
+  padding-bottom: 20px;
+}
+.week_plan{
+  flex: 1;
+  flex-direction: row;
+  padding-top: 40px;
+  font-size: 2rem;
+  color: #eee;
+  font-weight: bolder;
+}
+.image1{
+  display: flex;
+  padding-left: 60px;
+  padding-bottom: 20px;
+  background-color:#282c34;
+}
+.img1{
+  padding: 40px 100px;
+}
+.final{
+  background-color: #282c34;
+  padding: 30px;
+  margin: 20px 0;
+  font-size: 3rem;
+  color: #eee;
+}
+  form {
+  background:#282c34; 
+  flex: 1;
+  padding: 25px 50px 0 70px;
+  margin: 0 60px;
+  }
+  .title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  color: #eee;
+  }
+  .info {
+  display: flex;
+  flex-direction: column;
+  }
+  input, select {
+  padding: 10px;
+  margin-bottom: 30px;
+  /* background: transparent; */
+  border: none;
+  border-bottom: 1px solid #eee;
+  }
+  input::placeholder {
+  color: rgb(13, 13, 13);
+  }
+  .btn-item, button {
+  padding: 10px 5px;
+  margin-top: 20px;
+  border-radius: 5px; 
+  border: none;
+  background: #26a9e0; 
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  }
+  .btn-item {
+  display: inline-block;
+  margin: 20px 5px 0;
+  }
+  button {
+  width: 100%;
+  }
+  button:hover, .btn-item:hover {
+  background: #85d6de;
+  }
+  @media (min-width: 568px) {
+  html, body {
+  height: 100%;
+  }
+  }
+  footer{
+    padding: 0 0 20px 0;
+  }
