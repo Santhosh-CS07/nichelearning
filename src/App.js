@@ -10,29 +10,31 @@ function App() {
   const [number, setNumber] = useState('');
   const [referral, setReferral] = useState('');
 
+  const formValues = {
+    fullName: fname,
+    message: message,
+    email: email,
+    PhoneNumber: number,
+    referredBy: referral
+  }
 
+  const databaseRef = collection(db, 'students');
 
-  const databaseRef = collection(db, 'users');
-  const handleSubmit = () => {
-    addDoc(databaseRef, {
-      fullName: fname,
-      message: message,
-      email: email,
-      PhoneNumber: number,
-      referredBy: referral
-    })
-      .then(() => {
-        alert("Data Submitted")
-        setName('');
-        setMessage('');
-        setEmail('');
-        setReferral('');
-        setNumber(null);
-      })
-      .catch((err) => {
-        console.error(err);
-      })
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (!(formValues["PhoneNumber"] && formValues["email"] && formValues["fullName"] && formValues["referredBy"] && formValues["message"]) === '') {
+      addDoc(databaseRef, formValues);
+      alert("Data Submitted!");
+      setName("");
+      setEmail("");
+      setNumber("");
+      setMessage("");
+      setReferral("");
+    } else {
+      alert("Please fill the form ");
+    }
   };
+
   return (
     <div className="container-fluid App">
       <div className='row'>
@@ -83,11 +85,11 @@ function App() {
                   placeholder="Message"
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
-                ></textarea>
+                />
                 <input className="referral"
                   id="referral"
                   type="text"
-                  placeholder="referred  by | Ex: santhosh"
+                  placeholder="referred  by"
                   value={referral}
                   onChange={(e) => { setReferral(e.target.value) }}
                 />
@@ -95,7 +97,7 @@ function App() {
               <button
                 type="button"
                 onClick={handleSubmit}
-                class="border border-indigo-500 bg-indigo-500 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-indigo-600 focus:outline-none focus:shadow-outline"
+                className="border border-indigo-500 bg-indigo-500 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-indigo-600 focus:outline-none focus:shadow-outline"
               >
                 Submit Here
               </button>
