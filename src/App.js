@@ -107,7 +107,7 @@ function App() {
               </div>
             </div>
             <div className='col-lg-6'>
-              <img className='img1' src='NL_Poster_01.png' alt="NicheLearning" height="650px" width="600px" />
+              <img className='img1' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr-gQ5yd5Y__j1OsAE_lV5-U2nN2judu9GRg&usqp=CAU.png' alt="NicheLearning" height="650px" width="600px" />
             </div>
           </div>
         </div>
