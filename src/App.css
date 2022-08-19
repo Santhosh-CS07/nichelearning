@@ -3,85 +3,61 @@
 }
 
 .head2{
-  padding: 20px 0;
+  padding: 20px 0 0 0;
+  font-size: 1.5rem;
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 11vh;
-  width: "100%";
-  display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(15px + 2vmin);
   color: white;
-}
-.App-link {
-  color: #61dafb;
-}
-
-ul{
-  text-decoration: none;
-  color: #eee;
-  line-height: 55px;
-  text-align: left;
-  font-size: 1.3rem;
-  padding-left: 100px;
-}
-
-.free{
-  font-weight: bold;
-  color: chocolate;
-}
-.image {
-  display: flex;
-  padding-left: 30px;
-  padding-bottom: 20px;
-}
-.week_plan{
-  flex: 1;
-  flex-direction: row;
-  padding-top: 40px;
+  padding: 30px 50px;
   font-size: 2rem;
-  color: #eee;
-  font-weight: bolder;
-}
-.image1{
-  /* display: flex; */
-  padding-left: 60px;
-  padding-bottom: 20px;
-  background-color:#282c34;
-}
-.img1{
-  padding: 40px 10px;
 }
 .final{
   background-color: #282c34;
   padding: 30px;
   margin: 20px 0;
-  font-size: 3rem;
+  font-size: 2.6rem;
+  color: rgba(215, 217, 227, 0.905);
+  font-weight: bold;
+}
+.free{
+  font-weight: bold;
+  color: chocolate;
+}
+.week_plan{
+  padding-top: 40px;
+  font-size: 2rem;
   color: #eee;
+  font-weight: bolder;
+}
+.plan{
+  background-color:#282c34;
+  margin-top: 20px;
 }
   form {
   background:#282c34; 
-  flex: 1;
   padding: 25px 50px 30px 70px;
+  margin-top: 3px;
   }
   .title {
-  display: flex;
   align-items: center;
   margin-bottom: 20px;
   color: #eee;
+  font-size: 1.5rem;
+  padding: 25px 0;
+  text-decoration: underline;
+  text-decoration-color: rgb(27, 145, 199);
   }
   .info {
   display: flex;
   flex-direction: column;
   }
-  input, select {
+  input, textarea {
   padding: 10px;
   margin-bottom: 30px;
-  /* background: transparent; */
   border: none;
   border-bottom: 1px solid #eee;
   }
@@ -91,32 +67,9 @@ ul{
   textarea::placeholder {
     color: rgb(13, 13, 13);
     }
-  .btn-item, button {
-  padding: 10px 5px;
-  margin-top: 20px;
-  border-radius: 5px; 
-  border: none;
-  background: #26a9e0; 
-  text-decoration: none;
-  font-size: 15px;
-  font-weight: 400;
-  color: #fff;
-  }
-  .btn-item {
-  display: inline-block;
-  margin: 20px 5px 0;
-  }
   button {
   width: 100%;
   }
-  button:hover, .btn-item:hover {
-  background: #85d6de;
-  }
-  @media (min-width: 568px) {
-  html, body {
-  height: 100%;
-  }
-  }
   footer{
-    padding: 0 0 20px 0;
+    padding: 20px 0;
   }
