@@ -22,7 +22,7 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (!(formValues["PhoneNumber"] && formValues["email"] && formValues["fullName"] && formValues["referredBy"] && formValues["message"]) === '') {
+    if (!(formValues["PhoneNumber"] && formValues["email"] && formValues["fullName"] && formValues["referredBy"] && formValues["message"]) == '') {
       addDoc(databaseRef, formValues);
       alert("Data Submitted!");
       setName("");
