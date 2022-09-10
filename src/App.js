@@ -36,7 +36,7 @@ function App() {
   };
 
   return (
-    <div className="container-fluid App">
+    <div className=" App">
       <div className='row'>
         <header className="App-header">
           AWARE THECHNOLOGIES, PURPOSE, AND PLAN TO ACHIEVE BIG THINGS AS A <b className="free">SOFTWARE ENGINEER</b>
@@ -161,7 +161,7 @@ function App() {
         </div>
       </div>
       <footer>
-        &#169;2022 | created by <a href='https://nichelearning.vercel.app/'>nichelearning.com</a>
+        &#169;2022 | created by <a href='https://nichelearning.vercel.app/'>nichelearning.ml</a>
       </footer>
     </div>
   );
