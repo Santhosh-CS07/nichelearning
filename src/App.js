@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { db } from "./firebaseConfig";
 import { collection, addDoc } from "firebase/firestore";
 import './App.css';
+import Cources from "./components/Cources";
 
 function App() {
   const [fname, setName] = useState('');
@@ -48,6 +49,8 @@ function App() {
       <header className="final">
         THIS WEEK WILL CHANGE YOUR LIFE for <span className='free'>100%</span>
       </header>
+      <div>
+      </div>
       <div className='container'>
         <div className='row'>
           <div className='col-lg-6'>
@@ -159,6 +162,9 @@ function App() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="row">
+        <Cources />
       </div>
       <footer>
         &#169;2022 | created by <a href='https://nichelearning.vercel.app/'>nichelearning.ml</a>

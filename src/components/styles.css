@@ -1,0 +1,19 @@
+.crs {
+    background-color: #282c34;
+    padding: 40px 30px;
+}
+
+.crs_head{
+    font-size: 2rem;
+    padding: 35px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.live{
+    color: orangered;
+    font-weight: bold;
+}
+.cost{
+    text-decoration:line-through;
+    font-size: 15px;
+}
