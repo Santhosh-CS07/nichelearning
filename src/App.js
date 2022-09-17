@@ -85,7 +85,7 @@ function App() {
                   onChange={(e) => { setNumber(e.target.value) }}
                 />
                 <textarea
-                  placeholder="Message"
+                  placeholder="Message|Feedback|Review"
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                 />
