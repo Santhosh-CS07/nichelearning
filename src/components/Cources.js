@@ -18,7 +18,7 @@ const Cources = () => {
                                         <li><span className='live'>TOOLS</span>: GIT, GITHUB, VERCEL, VSCODE</li>
                                         <li><span className='live'>INTERVIEW</span>: Live Interview Practice</li>
                                         <li><span className='live'>TIME</span>: 2 months</li>
-                                        <li><span className='live'>PRICE</span>: <span className='cost'>6500/-</span><strong> 4500/-</strong></li>
+                                        {/* <li><span className='live'>PRICE</span>: <span className='cost'>6500/-</span><strong> 4500/-</strong></li> */}
                                     </ol>
                                 </p>
                             </div>
@@ -37,7 +37,7 @@ const Cources = () => {
                                         <li><span className='live'>TOOLS</span>: GIT, GITHUB, VERCEL, VSCODE</li>
                                         <li><span className='live'>INTERVIEW</span>: Live Interview Practice</li>
                                         <li><span className='live'>TIME</span>: 3 months</li>
-                                        <li><span className='live'>PRICE</span>: <span className='cost'>10500/-</span><strong> 7500/-</strong></li>
+                                        {/* <li><span className='live'>PRICE</span>: <span className='cost'>10500/-</span><strong> 7500/-</strong></li> */}
                                     </ol>
                                 </p>
                             </div>
@@ -56,7 +56,7 @@ const Cources = () => {
                                         <li><span className='live'>INTERVIEW</span>: Live Interview Practice</li>
                                         <li><span className='live'>TOOLS</span>: GIT, GITHUB, VSCODE</li>
                                         <li><span className='live'>TIME</span>: 2 months</li>
-                                        <li><span className='live'>PRICE</span>: <span className='cost'>6500/-</span><strong> 4500/-</strong></li>
+                                        {/* <li><span className='live'>PRICE</span>: <span className='cost'>6500/-</span><strong> 4500/-</strong></li> */}
                                     </ol>
                                 </p>
                             </div>
@@ -77,7 +77,7 @@ const Cources = () => {
                                         <li><span className='live'>INTERVIEW</span>: Live Interview Practice</li>
                                         <li><span className='live'>TOOLS</span>: GIT, GITHUB, VSCODE</li>
                                         <li><span className='live'>TIME</span>: 1 month</li>
-                                        <li><span className='live'>PRICE</span>: <span className='cost'>3500/-</span><strong> 2000/-</strong></li>
+                                        {/* <li><span className='live'>PRICE</span>: <span className='cost'>3500/-</span><strong> 2000/-</strong></li> */}
                                     </ol>                                </p>
                             </div>
                         </div>
@@ -95,7 +95,7 @@ const Cources = () => {
                                         <li><span className='live'>INTERVIEW</span>: Live Interview Practice</li>
                                         <li><span className='live'>TOOLS</span>: GIT, GITHUB, VSCODE</li>
                                         <li><span className='live'>TIME</span>: 1 month</li>
-                                        <li><span className='live'>PRICE</span>: <span className='cost'>3500/-</span><strong> 2000/-</strong></li>
+                                        {/* <li><span className='live'>PRICE</span>: <span className='cost'>3500/-</span><strong> 2000/-</strong></li> */}
                                     </ol>
                                 </p>
                             </div>
@@ -113,7 +113,7 @@ const Cources = () => {
                                         <li><span className='live'>SKILLS</span>: JAVASCRIPT[ES6], NODE.JS, MONGODB, SQL/NOSQL </li>
                                         <li><span className='live'>INTERVIEW</span>: Live Interview Practice</li>
                                         <li><span className='live'>TIME</span>: 2 month</li>
-                                        <li><span className='live'>PRICE</span>: <span className='cost'>6500/-</span><strong> 4500/-</strong></li>
+                                        {/* <li><span className='live'>PRICE</span>: <span className='cost'>6500/-</span><strong> 4500/-</strong></li> */}
                                     </ol>
                                 </p>
                             </div>
